@@ -1,0 +1,55 @@
+
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: 2rem;
+  padding-top: 20vh;
+}
+
+form {
+  padding: 20px;
+  background: purple;
+}
+
+form > * {
+ margin: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-top: 10vh;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+
+
+@media screen and (min-width: 800px) {
+  .App {
+  text-align: center;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10vh;
+}
+}
