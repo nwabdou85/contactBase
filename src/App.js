@@ -3,6 +3,10 @@ import './App.css';
 
 import ContactList from './component/contact.jsx';
 
+
+
+
+
 class App extends Component {
   
   constructor(props){
@@ -63,8 +67,17 @@ class App extends Component {
             if (!exits) {
            this.setState({ lists: [...this.state.lists, obj] }) 
            };
-    };
+        };
+
+        this.nom.value = "";
+        this.prenom.value="";
+        this.tel.value ="";
+        this.mail.value="";
+        this.tgas.value="";
   }
+
+
+
 
 
 
@@ -72,6 +85,8 @@ Edit(Id){
 
   this.setState({contatcId:Id})
 }
+
+
 
 
 EditList(obj){
