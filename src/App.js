@@ -67,13 +67,16 @@ class App extends Component {
             if (!exits) {
            this.setState({ lists: [...this.state.lists, obj] }) 
            };
-        };
+
 
         this.nom.value = "";
         this.prenom.value="";
         this.tel.value ="";
         this.mail.value="";
         this.tgas.value="";
+        };
+
+       
   }
 
 
